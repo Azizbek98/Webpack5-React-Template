@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/Azizbek98/React-Webpack-Bundler/issues"
   },
-  "homepage": "https://github.com/Azizbek98/React-Webpack-Bundler#readme"
+  "homepage": "https://github.com/Azizbek98/React-Webpack-Bundler#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
