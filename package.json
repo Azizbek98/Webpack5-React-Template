@@ -1,0 +1,21 @@
+{
+  "name": "react-webpack-bundler",
+  "version": "1.0.0",
+  "description": "React webpack project bundler",
+  "main": "index.js",
+  "scripts": {
+    "start": "[starting command here]",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azizbek98/React-Webpack-Bundler.git"
+  },
+  "keywords": [],
+  "author": "Azizbek Samatov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Azizbek98/React-Webpack-Bundler/issues"
+  },
+  "homepage": "https://github.com/Azizbek98/React-Webpack-Bundler#readme"
+}
