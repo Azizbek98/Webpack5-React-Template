@@ -4,7 +4,7 @@
   "description": "React webpack project bundler",
   "main": "index.js",
   "scripts": {
-    "start": "[starting command here]",
+    "start": "webpack serve --config webpack/webpack.config.js --open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
