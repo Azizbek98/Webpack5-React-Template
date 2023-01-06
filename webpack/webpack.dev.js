@@ -1,4 +1,5 @@
 const webpack = require("webpack");
+const ReactRefreshWebpackPlugin = require("@pmmmwh/react-refresh-webpack-plugin");
 
 module.exports = {
   mode: "development",
@@ -11,5 +12,6 @@ module.exports = {
     new webpack.DefinePlugin({
       "process.env.webpackMode": JSON.stringify("development"),
     }),
+    new ReactRefreshWebpackPlugin(),
   ],
 };
