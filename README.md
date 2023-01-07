@@ -1,6 +1,6 @@
 # React-Webpack-Bundler
 
-![Banner Image](./banner.png "Banner Image")
+![Banner Image](./banner.png 'Banner Image')
 
 <h2 align="center">Basic ReactJS Project Bundler</h2>
 
@@ -33,4 +33,10 @@ Linting application for checking errors:
 
 ```bash
 npm run lint
+```
+
+Formating code with prettier:
+
+```bash
+npm run format
 ```
