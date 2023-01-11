@@ -13,7 +13,7 @@
 ##### Clone repo:
 
 ```bash
-git clone https://git.epam.com/azizbek_samatov/reactgmp-netflix-roulette.git
+git clone https://github.com/Azizbek98/React-Webpack-Bundler.git
 ```
 
 ##### Install and run:
