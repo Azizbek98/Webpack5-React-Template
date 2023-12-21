@@ -1,17 +1,35 @@
+import React from 'react';
 import ClickCounter from './components/ClickCounter';
-import ImageComp from './components/ImageComp';
+import reactLogo from './assets/react.svg';
+import webpackLogo from './assets/webpack.svg';
 import './App.scss';
-import './App.css';
 
 const App: React.FC<{ title: string }> = ({ title }) => {
   return (
-    <div>
-      <h1>Hello {title}</h1>
-      <h2>Application running on {process.env.webpackMode} mode</h2>
-      <ImageComp />
-      <hr />
+    <>
+      <div>
+        <a href="https://webpack.js.org/" target="_blank" rel="noreferrer">
+          <img src={webpackLogo} className="logo" alt="Webpack logo" />
+        </a>
+        <a href="https://react.dev" target="_blank" rel="noreferrer">
+          <img src={reactLogo} className="logo react" alt="React logo" />
+        </a>
+      </div>
+      <h1>{title}</h1>
+
       <ClickCounter />
-    </div>
+
+      <p className="read-the-docs">
+        This project template was created by{' '}
+        <a
+          href="https://a-samatov.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Azizbek Samatov
+        </a>
+      </p>
+    </>
   );
 };
 

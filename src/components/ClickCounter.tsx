@@ -1,20 +1,22 @@
-import { useState } from "react";
+import { useState } from 'react';
 
 const ClickCounter = () => {
-  const [counter, setCounter] = useState(0);
+  const [counter, setCounter] = useState<number>(0);
 
   const increment = () => setCounter((prev) => prev + 1);
   const decrement = () => setCounter((prev) => prev - 1);
 
   return (
-    <div>
-      <h3>Counter Component</h3>
-      <div>
-        <button onClick={increment}>+</button>
-        <span>{counter}</span>
-        <button onClick={decrement}>-</button>
+    <>
+      <div className="card">
+        <h2>Count is {counter}</h2>
+        <button onClick={decrement}>- decrement</button>
+        <button onClick={increment}>+ increment</button>
+        <p>
+          Edit <code>src/App.tsx</code> and save to test HMR
+        </p>
       </div>
-    </div>
+    </>
   );
 };
 
